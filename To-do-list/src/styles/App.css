@@ -1,0 +1,169 @@
+.App {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App h1 {
+  font-size: 3rem;
+}
+
+.App .main-container {
+  width: 50%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .form {
+  width: 100%;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .form input {
+  width: 70%;
+  min-height: 5vh;
+  font-size: 1.5rem;
+}
+
+.App .form button {
+  background-color: #15d66c;
+  color: white;
+  font-weight: bold;
+  font-weight: bold;
+  padding: .5rem 2rem;
+  border-radius: 10rem;
+  border: none;
+  font-size: 2rem;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.App .form button:hover {
+  background-color: white;
+  color: #15d66c;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.App .list {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.App .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .7rem;
+}
+
+.App .task .buttons {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .task .buttons .button {
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10rem;
+  padding: .1rem 1rem;
+  cursor: pointer;
+}
+
+.App .task .buttons .pending {
+  background-color: #d6c915;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.App .task .buttons .pending:hover {
+  background-color: white;
+  color: #d6c915;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.App .task .buttons .completed {
+  background-color: #15d66c;
+  color: white;
+  font-weight: bold;
+  font-weight: bold;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.App .task .buttons .completed:hover {
+  background-color: white;
+  color: #15d66c;
+  font-weight: bold;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.App .task .buttons .delete {
+  background-color: #d6153f;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.App .task .buttons .delete:hover {
+  background-color: white;
+  color: #d6153f;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.App .task input {
+  width: 90%;
+  font-size: 1.5rem;
+}
+
+.App .task .item-task {
+  width: 70%;
+  font-size: 2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.App .task .item-task:hover {
+  color: blue;
+}
+/*# sourceMappingURL=App.css.map */
